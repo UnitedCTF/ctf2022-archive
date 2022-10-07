@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge": {"category": "Trivia", "name": "netcat", "value": 50, "id": 89}, "date": "2022-10-01T18:54:40+00:00", "type": "correct", "challenge_id": 89, "user": {"name": "Guacamoula", "id": 246}, "team": null, "id": 5373}], "meta": {"count": 1}}

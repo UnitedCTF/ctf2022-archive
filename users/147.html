@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UnitedCTF 2022</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/files/f8e56ca6dd2579b28dee2113659c3434/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="/themes/core/static/css/fonts.min.css?d=d7a37e0b">
+	<link rel="stylesheet" href="/themes/core/static/css/main.min.css?d=d7a37e0b">
+	<link rel="stylesheet" href="/themes/core/static/css/core.min.css?d=d7a37e0b">
+	
+
+
+	
+	<script type="text/javascript">
+		var init = {
+			'urlRoot': "",
+			'csrfNonce': "a1d61285eecc4b2b79f4da8d39fb5f5accfe148134ae019a437a019be813c819",
+			'userMode': "users",
+			'userId': 0,
+			'userName': null,
+			'userEmail': null,
+			'teamId': null, 
+			'teamName': null,
+			'start': 1664577000,
+			'end': 1665248400,
+			'theme_settings': null
+		}
+	</script>
+	<style id="theme-color">
+:root {--theme-color: #2b17ff; --theme-color-white: #ffffff;}
+.navbar{background-color: var(--theme-color) !important; border-bottom: 5px solid var(--theme-color-white) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+.container{padding: 0; max-width: 65%;}
+</style>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a href="/" class="navbar-brand">
+            
+                <img class="img-responsive ctf_logo" src="/files/da33480e325cd45fec09cd35947aa906/logo_nav.png" height="25" alt="UnitedCTF 2022">
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#base-navbars"
+                aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="base-navbars">
+            <ul class="navbar-nav mr-auto">
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/regles">Règles</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dciets">DCI</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/jdis">JDIS</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rhum">RHUM</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/applets">ApplETS</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/desjardins">Desjardins</a>
+                    </li>
+                
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/users">Users</a>
+                    </li>
+                    
+                
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/scoreboard">Scoreboard</a>
+                    </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/challenges">Challenges</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+	<main role="main">
+		
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Danibal34</h1>
+
+			
+
+			
+
+			
+				<h3 class="d-inline-block">
+					<span class="badge badge-primary">CSI-CSTJEAN</span>
+				</h3>
+			
+
+			
+				<h3 class="d-inline-block">
+					<span class="badge badge-primary">
+						<i class="flag-ca"></i>
+						Canada
+					</span>
+				</h3>
+			
+
+			
+
+			<div>
+				<h2 class="text-center">
+					
+						27th <small>place</small>
+					
+				</h2>
+				<h2 class="text-center">
+					
+						3050 <small>points</small>
+					
+				</h2>
+			</div>
+
+			<div class="pt-3">
+				
+					<a href="https://informatique.cstjean.qc.ca/" target="_blank" style="color: inherit;" rel="noopener">
+						<i class="fas fa-external-link-alt fa-2x px-2" data-toggle="tooltip" data-placement="top"
+						   title="https://informatique.cstjean.qc.ca/"></i>
+					</a>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+
+
+</div>
+
+		
+		
+		
+			<div class="row">
+				<div class="col-md-6 d-none d-md-block d-lg-block">
+					<div id="keys-pie-graph" class="d-flex align-items-center">
+						<div class="text-center w-100">
+							<i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 d-none d-md-block d-lg-block">
+					<div id="categories-pie-graph" class="d-flex align-items-center">
+						<div class="text-center w-100">
+							<i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+						</div>
+					</div>
+				</div>
+				<br class="clearfix">
+				<div class="col-md-12 d-none d-md-block d-lg-block">
+					<div id="score-graph" class="w-100 d-flex align-items-center">
+						<div class="text-center w-100">
+							<i class="fas fa-circle-notch fa-spin fa-3x fa-fw spinner"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Awards</h3>
+				</div>
+				
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Solves</h3>
+					<table class="table table-striped">
+						<thead>
+						<tr>
+							<td><b>Challenge</b></td>
+							<td class="d-none d-md-block d-lg-block"><b>Category</b></td>
+							<td><b>Value</b></td>
+							<td><b>Time</b></td>
+						</tr>
+						</thead>
+						<tbody>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Règles / Rules-57">
+										Règles / Rules
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Misc</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:09:51Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Coca-Cola: Information à la source-43">
+										Coca-Cola: Information à la source
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:11:11Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Coca-Cola: La recette secrète-45">
+										Coca-Cola: La recette secrète
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:12:19Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Coca-Cola: Un biscuit avec ça?-46">
+										Coca-Cola: Un biscuit avec ça?
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:12:58Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Coca-Cola: Un site bien caché-44">
+										Coca-Cola: Un site bien caché
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:13:22Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Coca-Cola: Secret en tête-47">
+										Coca-Cola: Secret en tête
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:14:30Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Brainfun-52">
+										Brainfun
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Misc</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-09-30T23:53:57Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Lights-51">
+										Lights
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Misc</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T00:12:00Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#rodata-1">
+										rodata
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Reverse</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T00:33:03Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Film célèbre-65">
+										Film célèbre
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T17:54:43Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Cadeau-61">
+										Cadeau
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T17:55:44Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#netcat-89">
+										netcat
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T17:56:37Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Nom de groupe-66">
+										Nom de groupe
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T17:57:42Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Citation célèbre-62">
+										Citation célèbre
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T17:58:33Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Xorbsession 1-9">
+										Xorbsession 1
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Cryptography</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T17:59:34Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Corgis Code-75">
+										Corgis Code
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Cryptography</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-01T23:58:30Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Sugar Problem-73">
+										Sugar Problem
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Cryptography</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T00:01:52Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Citation moins célèbre-63">
+										Citation moins célèbre
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T00:06:10Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Événement célèbre-64">
+										Événement célèbre
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T00:26:19Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#App|ETS Challenge 1: Injectin&#39; for searchin&#39;-8">
+										App|ETS Challenge 1: Injectin&#39; for searchin&#39;
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Reverse</td>
+								<td>236</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T21:03:02Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#App|ETS Challenge 3: APdeKompilation-5">
+										App|ETS Challenge 3: APdeKompilation
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Reverse</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T21:05:50Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#App|ETS Challenge 2: Dig deeper-7">
+										App|ETS Challenge 2: Dig deeper
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Reverse</td>
+								<td>212</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T21:07:51Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#ltrace-2">
+										ltrace
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Reverse</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T23:54:52Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#strace-3">
+										strace
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Reverse</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-02T23:59:33Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#TXT-56">
+										TXT
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Misc</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-03T00:06:21Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Wisdom 1-69">
+										Wisdom 1
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Web</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-03T12:21:03Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#The Hidden Part of the Iceberg-18">
+										The Hidden Part of the Iceberg
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Forensics</td>
+								<td>320</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T01:02:03Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#I see &#39;em pee 1-21">
+										I see &#39;em pee 1
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Forensics</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T01:09:58Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Matryoshka-19">
+										Matryoshka
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Forensics</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T02:06:58Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Fameux restaurant-90">
+										Fameux restaurant
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T02:12:03Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#E-12">
+										E
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Cryptography</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T12:59:37Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#sigsegv 1-31">
+										sigsegv 1
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Pwn</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T14:22:16Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Encore des maths-91">
+										Encore des maths
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Cryptography</td>
+								<td>50</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T15:08:41Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#Votre appel est important pour nous-92">
+										Votre appel est important pour nous
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Trivia</td>
+								<td>10</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T15:12:40Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#sigsegv 2-32">
+										sigsegv 2
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Pwn</td>
+								<td>280</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T19:56:20Z"></span>
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+									<a href="/challenges#sigsegv 3-33">
+										sigsegv 3
+									</a>
+								</td>
+								<td class="d-none d-md-block d-lg-block">Pwn</td>
+								<td>492</td>
+								<td class="solve-time">
+									<span data-time="2022-10-06T20:41:22Z"></span>
+								</td>
+							</tr>
+						
+						</tbody>
+					</table>
+				</div>
+			</div>
+		
+	</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container text-center">
+			<a href="https://ctfd.io" class="text-secondary">
+				<small class="text-muted">Powered by CTFd</small>
+			</a>
+		</div>
+	</footer>
+
+	<script defer src="/themes/core/static/js/vendor.bundle.min.js?d=d7a37e0b"></script>
+	<script defer src="/themes/core/static/js/core.min.js?d=d7a37e0b"></script>
+	<script defer src="/themes/core/static/js/helpers.min.js?d=d7a37e0b"></script>
+
+	
+	<script defer src="/themes/core/static/js/pages/stats.min.js?d=d7a37e0b"></script>
+
+
+	
+	<script>
+		var stats_data = {"account_id": 147, "id": 147, "name": "Danibal34", "type": "user"};
+	</script>
+	<script defer src="/themes/core/static/js/echarts.bundle.min.js?d=d7a37e0b"></script>
+	<script defer src="/themes/core/static/js/graphs.min.js?d=d7a37e0b"></script>
+
+
+	
+
+	
+</body>
+</html>
